@@ -1,28 +1,51 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" style="text-align: center;">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сайт - визитка </title>
+    <style>
+        header {
+            height: 80px;
+            min-width: 780px;
+            padding-top: 40px;
+            font-size: x-large;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: black;
+        }
+        main {
+            background-color: gainsboro;
+            font-size: large;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        footer {
+            height: 40px;
+            background-color: black;
+            color: cornflowerblue;
+        }
+        
+    </style>
 </head>
-<body>
+<body style="min-width: 780px; margin: 0">
     <!--Пишем header-->
-    <header title="шапка">
-        <hr>
-        <a href="#">Главная</a>
-        <a href="about.html">О нас</a>
-        <a href="contacts.html">Контакты</a>
-        <hr>
+    <header>
+        <a href="#" style="text-decoration: none; color: coral;">Главная</a>
+        <a href="about.html" style="text-decoration: none; color: darkgoldenrod;">О нас</a>
+        <a href="contacts.html"style="text-decoration: none; color: darkgoldenrod;">Контакты</a>
     </header>
     <!--Пишем main-->
     <main title="основной контент">
-        <h1>Как нас найти</h1>
-        <address>
-            190000, Санкт-Петербург,<br>
-            Невский проспект, д.1<br>
-            555-55-55<br>
-        </address>        
+        <h2 style="color: darkorchid;">Это сайт - визитка</h2>
+        <h3>Про меня:</h2>
+        <img src="assets/img/logo.jpg" alt="#" style="border: 5px solid #666; border-radius: 5px;">
+        <p>
+            Меня зовут Егор.Я работаю <strong>проектировщиком</strong><br>
+            Но хочу изучить новую, востребованную профессию <b><i>веб - разработчика</i></b>!
+        </p>
+        <p>
+            Живу в Москве! Увлекаюсь спортом и чтением книг!
+        </p>
     </main>
     <!--Пишем footer-->
     <footer title="копирайт">
